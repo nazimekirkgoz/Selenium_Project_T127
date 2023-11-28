@@ -8,7 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import utilities.Before_After;
 
-public class FromStep10_GE extends Before_After {
+public class RegisterAnUser extends Before_After {
     /*
    1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
@@ -45,9 +45,9 @@ public class FromStep10_GE extends Before_After {
         WebElement signUpName = driver.findElement(By.xpath("//*[@data-qa='signup-name']"));
         Actions actions = new Actions(driver);
         actions.click(signUpName)
-                .sendKeys("Ecrinn")
+                .sendKeys("Ecrin")
                 .sendKeys(Keys.TAB)
-                .sendKeys("ecrinn@gmail.com")
+                .sendKeys("ecrin@gmail.com")
                 .perform();
 
         //7. Click 'Signup' button
