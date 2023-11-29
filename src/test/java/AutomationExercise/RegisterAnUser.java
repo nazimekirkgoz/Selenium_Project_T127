@@ -86,5 +86,5 @@ public class RegisterAnUser extends TestBase {
                 .sendKeys("1993")
                 .sendKeys(Keys.TAB)
                 .perform();
-        ReusableMethods.bekle(3);
+        ReusableMethods.bekle(5);
 }}
