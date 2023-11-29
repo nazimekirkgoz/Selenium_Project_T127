@@ -1,6 +1,6 @@
 package AutomationExercise;
 
-public class C01_Register_User {
+public class Register_User {
 
                /*
 1. Launch browser
